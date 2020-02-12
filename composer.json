@@ -1,0 +1,22 @@
+{
+    "name": "gustavopcn/e-commerce",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gustavo Neto",
+            "email": "gustavopcn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "5.2.22",
+        "slim/slim": "2.0",
+        "rain/raintpl": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
